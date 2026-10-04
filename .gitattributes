@@ -1,0 +1,25 @@
+* text=auto
+
+*.cs text eol=lf diff=csharp
+*.asmdef text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Unity YAML: let Unity's merge tool handle these
+*.unity text eol=lf merge=unityyamlmerge
+*.prefab text eol=lf merge=unityyamlmerge
+*.asset text eol=lf merge=unityyamlmerge
+*.mat text eol=lf merge=unityyamlmerge
+*.meta text eol=lf
+
+# Binary assets (image-blaster output, audio, textures)
+*.glb binary
+*.gltf text
+*.spz binary
+*.fbx binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
