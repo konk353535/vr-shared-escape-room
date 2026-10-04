@@ -293,7 +293,6 @@ namespace EscapeRoom.Editor
             // XR rig
             var rig = CreateCameraRig();
             var passthrough = rig.AddComponent<OVRPassthroughLayer>();
-            passthrough.overlayType = OVROverlay.OverlayType.Underlay;
             passthrough.enabled = false;
             var ovrManager = rig.GetComponent<OVRManager>();
             if (ovrManager)
